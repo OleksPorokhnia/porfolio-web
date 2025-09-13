@@ -50,7 +50,7 @@ export default function AboutMe() {
         <div className="container mx-auto flex flex-col md:flex-row items-center gap-20 px-6">
           <div className="flex-shrink-0">
             <img
-              src="/cat.jpg"
+              src="/photo.PNG"
               alt="avatar"
               className="w-80 h-80 object-cover rounded-full shadow-2xl ring-4 ring-purple-400"
             />
