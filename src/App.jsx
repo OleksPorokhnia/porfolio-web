@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Card from './elements/Card'
 import './index.css'
+import { HashLink } from 'react-router-hash-link';
 
 
 function App() {
@@ -35,6 +36,9 @@ function App() {
                 <li>JS, React</li>
                 <li>Bootstrap, Tailwind</li>
               </ul>
+
+              <a href='/aboutme' className='absolute bottom-4 left-4 text-gray-200 hover:text-yellow-300'>More ⏷</a>
+
             </Card>
           </div>
         </div>
@@ -59,6 +63,8 @@ function App() {
                   </a>
                 </li>
               </ul>
+
+              <HashLink smooth to='/aboutme#projects' className='absolute bottom-4 left-4 text-gray-200 hover:text-yellow-300'>More ⏷</HashLink>
             </Card>
           </div>
           <div style={{width: 256, height:237}}>
